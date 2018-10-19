@@ -6,7 +6,8 @@ chrony_ntp_pools:
   - pool 1.ubuntu.pool.ntp.org iburst maxsources 1
   - pool 2.ubuntu.pool.ntp.org iburst maxsources 2
 chrony_ntp_servers: []  
-chrony_change_mail: ""
-chrony_change_treshold: 0.5
+chrony_notif_mail: ""
+chrony_nofif_treshold: 0.5
+chrony_log_treshold: 0.5
 
 
