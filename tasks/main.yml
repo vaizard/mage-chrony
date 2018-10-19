@@ -4,7 +4,7 @@
   package:
     name: chrony
     state: present
-    
+
 - name: Making changes to the Chrony config is uptodate
   template:
     src: "chrony.conf.j2"
@@ -13,7 +13,7 @@
     group: "root"
     mode: "644"
   notify: restart chrony
-  
+
 - name: Ensure chrony services is started and enabled
   service:
     name: chrony
