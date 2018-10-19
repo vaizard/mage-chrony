@@ -1,0 +1,14 @@
+---
+
+chrony_ntp_sources:
+  - pool ntp.ubuntu.com        iburst maxsources 4
+  - pool 0.ubuntu.pool.ntp.org iburst maxsources 1
+  - pool 1.ubuntu.pool.ntp.org iburst maxsources 1
+  - pool 2.ubuntu.pool.ntp.org iburst maxsources 2
+chrony_ntp_servers: []
+chrony_notif_mail: ""
+chrony_nofif_treshold: 0.5
+chrony_log_treshold: 0.5
+chrony_disable_server: false
+
+
